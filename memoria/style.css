@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #d3d3d3;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: solid 3px black;
+    width: 120px;
+    height: 120px;
+}
+
+nav h1, h2 {
+    text-align: center;
+    margin: 5px;
+}
+
+button{
+    margin: 14px 45% 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 25px; */
+    width: 10%;
+
+}
+
+.certo{
+    opacity: .7;
+}
+
+.destaque{
+    color: red;
+}

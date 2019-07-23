@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #14bdac;
+  overflow: hidden;
+}
+
+header{
+  width: 500px;
+  height: 95vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+header aside{
+  width: 170px;
+  height: 100px;
+}
+header aside p{
+  margin: 0;
+  color: #545454;
+}
+
+section{
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+section div{
+  width: 33%;
+  height: 95%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+
+section div p{
+  font-size: 44pt;
+  font-weight: 900;
+  margin: 0;
+}
+section div:hover{
+  background-color: rgb(214, 214, 214);
+} 
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+nav h3, nav p{
+  color: #545454;
+
+}
+
+nav h3{
+  font-size: 64pt;
+}
+
+nav p:first-child{
+  font-size: 20pt;
+}
+p{
+  margin-bottom: 40px;
+}
+input{
+  margin-bottom: 10px;
+  text-align: center;
+  border: none;
+  background: unset;
+  border-bottom: 1px solid #3ea192;
+  color: #545454;
+  width: 350px;
+  font-size: 30pt;
+  max-width: 95vw;
+  height: 50px;
+}
+
+#textoMensagem{
+  color: red;
+  font-weight: 900;
+  font-size: 14pt;
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  width: 380px;
+  background-color: white;
+  color: #4cc0af;
+  height: 40px;
+  font-size: 16pt;
+  border-radius: 10px;
+  max-width: 90vw;
+}
+button:hover{
+  background-color: rgb(241, 240, 240);
+}
+footer{
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+footer p:nth-child(1){
+  font-size: 10rem;
+  color: white;
+}
+footer p{
+  margin: 0;
+  font-weight: bolder;
+}
+
+footer button{
+  margin-top: 20px;
+}
+
+
+@media(max-width: 800px){
+  footer{
+    left: 0;
+  }
+}
+@media(max-width: 650px){
+  nav h3{
+    font-size: 48pt;
+  }
+  #gamerWinner{
+    font-size: 8rem;
+  }
+}
+
+@media(max-width: 565px){
+  header{
+    width: 435px; 
+  }
+}
+@media(max-width: 515px){
+  body{
+    align-items: flex-start;
+    padding-top: 40px;
+  }
+  #gamerWinner{
+    font-size: 6rem;
+  }
+  nav h3{
+    font-size: 36pt;
+  }
+  aside{
+    display: none;
+  }
+}
+
+@media(max-width: 475px){
+  nav h3{
+    width: 300px;
+  }
+}
+
+@media(max-width: 460px){
+  header{
+    width: 370px;
+  }
+  header section div{
+    margin-left: 10px;
+    height: 90%;
+  }
+}
+@media(max-width: 380px){
+  header{
+    width: 340px;
+  }
+  #gammerWinner{
+    font-size: 4rem;
+  }
+  header section div{
+    width: 29%;
+    height: 85%;
+  }
+}

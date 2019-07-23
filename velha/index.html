@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tic-tac-toe</title>
+  <script defer src="script.js"> </script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/tic-tac-toe.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+      <h3>Jogo da velha !</h3>
+      <p>Digite X ou O para o primeiro jogador</p>
+      <p id="textoMensagem"></p>
+      <input type="text" placeholder="X ou O" required autofocus value="">
+      <button id="acessButton">Jogar</button>
+    </nav>
+    
+    <header>
+        <aside>
+          <p id="texto1"></p>
+          <p id="texto2"></p>
+          <p id="texto3"></p>
+        </aside>
+
+        <section>
+          <div></div>
+          <div></div>
+          <div></div>
+        </section>
+
+        <section>
+          <div></div>
+          <div></div>
+          <div></div>
+        </section>
+        
+        <section>
+          <div></div>
+          <div></div>
+          <div></div> 
+        </section>
+        
+    </header>
+    <footer id="gameResult">
+        <p id="gamerWinner"></p>
+        <p id="venceuText">VENCEU</p>
+        <button id="gameAsk">Jogar novamente </button>
+    </footer>
+</body>
+</html>

@@ -1,6 +1,7 @@
 # Jogos em JavaScript
 ### Jogo da Velha
 ### Jogo da Memória
+### Jogo das Cores
 ### Jogo Genius
 
 ## Quais ferramentas deverão ser utilizadas?
